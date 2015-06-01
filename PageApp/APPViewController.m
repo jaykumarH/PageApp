@@ -19,12 +19,12 @@
     
     [super viewDidLoad];
     
-    /*****customize the page control ***********/
+    /*****customize the page control **********************/
     UIPageControl *pageControl = [UIPageControl appearance];
-    pageControl.pageIndicatorTintColor = [UIColor lightGrayColor];
+    pageControl.pageIndicatorTintColor = [UIColor darkGrayColor];
     pageControl.currentPageIndicatorTintColor = [UIColor yellowColor];
-    pageControl.backgroundColor = [UIColor blueColor];
-    /********************************************/
+    pageControl.backgroundColor = [UIColor orangeColor];
+    /******************************************************/
     
     self.pageController = [[UIPageViewController alloc] initWithTransitionStyle:UIPageViewControllerTransitionStyleScroll navigationOrientation:UIPageViewControllerNavigationOrientationHorizontal options:nil];
     
